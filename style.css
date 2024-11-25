@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: red;
+    background-image: url('assets/Fundo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 50px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.548);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.384);
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.message{
+    display: flex;
+    align-items: end;
+}
+
+.message h1 {
+    color: rgb(43, 34, 34);
+    font-size: 2.7rem;
+    font-family: "Jaro", sans-serif;
+}
+
+.message p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
