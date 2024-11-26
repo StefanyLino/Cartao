@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDFCE9;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 70px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.548);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.384);
+}
+
+
+.message h1 {
+    color: rgb(43, 34, 34);
+    font-size: 1.8rem;
+    font-family: "Jaro", sans-serif;
+}
+
+.message p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
