@@ -14,7 +14,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .card {
@@ -26,7 +26,6 @@ body {
     max-width: 600px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.384);
 }
-
 
 .message{
     display: flex;
@@ -44,4 +43,31 @@ body {
     line-height: 1.5;
     color: black;
     font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+.botao {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: .5rem .5rem;
+    border-radius: 10rem;
+    background-color: #181818;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-left: 120px;
+
+    &:hover {
+      color: #000000;
+      background-color: #ecebcf;
+
+      &:before {
+        width: 100%;
+      }
+    }
 }
